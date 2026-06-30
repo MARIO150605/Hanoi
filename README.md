@@ -19,8 +19,8 @@ En este proyecto no se utilizará una representación gráfica; toda la interacc
 python hanoi.py
 
 ### TODO
-[x] Init
-[  ] Logica del juego
-[  ] Juego manual
-[  ] Juego automatico
-[  ] Pruebas de codigo
+[x] Init    
+[x] Logica del juego  
+[x] Juego manual  
+[  ] Juego automatico  
+[  ] Pruebas de codigo  
