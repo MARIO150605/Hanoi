@@ -22,5 +22,5 @@ python hanoi.py
 [x] Init    
 [x] Logica del juego  
 [x] Juego manual  
-[  ] Juego automatico  
+[x] Juego automatico  
 [  ] Pruebas de codigo  
