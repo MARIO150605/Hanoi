@@ -96,17 +96,17 @@ class Hanoi(object):
     
     def puntuaciones(self, tab):
 
-        # 🏆 victoria real
+        # todos los discos en la torre
         for i in range(1, self.N_Tor):
             if tab[i] == list(range(1, self.N_Disc + 1)):
                 return 3
 
-        # 🟡 progreso real: torre parcialmente correcta
+        # torre parcialmente correcta
         for i in range(1, self.N_Tor):
             if tab[i] == list(range(1, len(tab[i]) + 1)):
                 return 2
 
-        # 🔴 cualquier otro caso
+        # cualquier otro caso
         return 1
     
     def puntuar_movimientos(self,tab):
